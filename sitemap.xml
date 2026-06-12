@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
 
@@ -13,4 +14,21 @@
 <loc>https://milasrenaultservis.com/referanslar.html</loc>
 </url>
 
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+
+<url>
+<loc>https://milasrenaultservis.com/</loc>
+</url>
+
+<url>
+<loc>https://milasrenaultservis.com/hakkimizda.html</loc>
+</url>
+
+<url>
+<loc>https://milasrenaultservis.com/referanslar.html</loc>
+</url>
+
+>>>>>>> 515925208019ea586167011826284a3c746f7529
 </urlset>
