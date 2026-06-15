@@ -1522,3 +1522,84 @@ footer{
         width:50px;
     }
 }
+/* =====================================
+   125% ZOOM = MOBİL GÖRÜNÜM
+===================================== */
+
+@media (max-width: 1500px){
+
+  .hero-inner{
+    display:flex !important;
+    flex-direction:column !important;
+    align-items:center !important;
+    text-align:center !important;
+    gap:40px;
+  }
+
+  .hero-left{
+    width:100%;
+    max-width:900px;
+    text-align:center;
+  }
+
+  .hero-left h1{
+    font-size:56px;
+    line-height:1.1;
+  }
+
+  .hero-kicker,
+  .hero-text{
+    margin-left:auto;
+    margin-right:auto;
+    max-width:700px;
+  }
+
+  .hero-buttons,
+  .hero-badges,
+  .brand-buttons{
+    justify-content:center;
+  }
+
+  .hero-right{
+    width:100%;
+    max-width:1100px;
+
+    display:grid !important;
+    grid-template-columns:repeat(3,1fr);
+
+    gap:20px;
+  }
+}
+
+/* =====================================
+   150% ZOOM
+===================================== */
+
+@media (max-width: 1200px){
+
+  .hero-right{
+    grid-template-columns:1fr !important;
+    max-width:520px;
+  }
+
+  .hero-left h1{
+    font-size:46px;
+  }
+
+}
+
+/* =====================================
+   TELEFON
+===================================== */
+
+@media (max-width: 768px){
+
+  .hero-left h1{
+    font-size:38px;
+  }
+
+  .hero-right{
+    max-width:100%;
+  }
+
+}
